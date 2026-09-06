@@ -1,0 +1,58 @@
+site_name: Idk
+site_description: No description
+site_author: Ehud Eden
+
+site_url: https://ShadowEd0.github.io/Idk/
+
+repo_name: EhudEden/Idk
+repo_url: https://github.com/ShadowEd0/Idk.git
+
+# 2. THÈME ET APPARENCE
+theme:
+  name: material
+  language: fr                  # Interface en français (boutons, recherche...)
+  palette:
+    # Mode clair
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan           # Couleur principale (barre du haut)
+      accent: pink            # Couleur d'accentuation (liens, boutons)
+      toggle:
+        icon: material/brightness-7
+        name: Passer au mode sombre
+    # Mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Passer au mode clair
+  features:
+    - navigation.tabs           # Menu sous forme d'onglets en haut
+    - navigation.top            # Bouton fléché pour remonter en haut de page
+    - search.suggest            # Suggestions automatiques dans la barre de recherche
+    - search.highlight          # Surligne le texte cherché sur la page
+    - content.code.copy         # Ajoute un bouton "Copier" sur tous les blocs de code
+
+# 3. EXTENSIONS MARKDOWN (Fonctionnalités avancées)
+markdown_extensions:
+  - footnotes
+  - admonition                  # Permet de faire des blocs d'avertissement/notes (!!! note)
+  - pymdownx.details            # Permet de faire des blocs dépliables (??? note)
+  - pymdownx.superfences        # Support des blocs de code avancés
+  - pymdownx.highlight:         # Coloration du code
+      anchor_linenums: true
+  - toc:
+      permalink: true        # Ajoute un symbole de lien au survol des titres
+  - pymdownx.tasklist:
+      custom_checkbox: true   # Rendu visuel propre des cases
+      clickable_checkbox: true # Permet de cliquer sur les cases côté client (si supporté par le thème)
+extra_javascript:
+  - javascripts/checklists.js # Script de sauvegarde
+# 4. STRUCTURE ET MENU DU SITE
+nav:
+  - Accueil: index.md
+  - Cryptographie: cryptographie.md
+  - Sujet réel: real.md
+  - Mises à jour: mises_à_jour.md
