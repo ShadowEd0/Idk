@@ -22,6 +22,8 @@ Comme:
 
 > **_Ma princesse, la lune est belle_**  
 
+Et en plus je ne sais quel nom donner au site, donc je vais l'appeler "Idk" pour l'instant si tu as une idée de toute les manière je te suis seulement.
+
 
 
 Bon sur [cette page](mises_à_jour) tu trouveras les dates de toutes les mises à jour si j'en fais.
