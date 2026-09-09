@@ -22,7 +22,7 @@ Je veux juste l'autorisation de ta part pour me battre pour que nous deux ça pe
 
 
 
-> **Et tu n'as pas encore répondu à ma question à savoir si tu m'aimais toujours.**
+> **Et je ne sais toujours pas si tu m'aime encore.** 
 
 
 
@@ -36,4 +36,4 @@ Le site sera hébergé sur mon compte GitHub secondaire que je pense personne ne
 
 Mais dis moi si tu préfère que je supprime.
 
-[_Voici le lien vers le second site qui est vibe coder_]()
+*[`Le lien vers le second site.`](https://welcome-ml.shadow23ed.workers.dev)*  

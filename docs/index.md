@@ -24,6 +24,10 @@ Comme:
 
 Et en plus je ne sais quel nom donner au site, donc je vais l'appeler "Idk" pour l'instant si tu as une idée de toute les manière je te suis seulement.
 
+***Note***:
+
+> Ce texte est écrit le 09 je vient de terminer le site mais le rendu sur téléphone n'est pas très super donc il serait préférable de l'ouvrir   sur pc.
+
 
 
 Bon sur [cette page](mises_à_jour) tu trouveras les dates de toutes les mises à jour si j'en fais.
