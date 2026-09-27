@@ -10,6 +10,7 @@ repo_url: https://github.com/ShadowEd0/Idk.git
 # 2. THÈME ET APPARENCE
 theme:
   name: material
+  custom_dir: overrides        # Templates personnalisés (voir overrides/main.html)
   language: fr                  # Interface en français (boutons, recherche...)
   palette:
     # Mode clair
@@ -48,11 +49,21 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true   # Rendu visuel propre des cases
       clickable_checkbox: true # Permet de cliquer sur les cases côté client (si supporté par le thème)
-extra_javascript:
-  - javascripts/checklists.js # Script de sauvegarde
 # 4. STRUCTURE ET MENU DU SITE
 nav:
   - Accueil: index.md
   - Cryptographie: cryptographie.md
   - Sujet réel: real.md
   - Mises à jour: mises_à_jour.md
+
+# 5. ANALYTICS (Google Analytics 4)
+# Measurement ID de la propriété GA4 (visible dans le HTML du site, ce n'est pas un secret).
+# La variable d'environnement GA_MEASUREMENT_ID permet de le remplacer au build, utile
+# si un jour le build est fait sur une autre machine ou en CI :
+#   PowerShell :  $env:GA_MEASUREMENT_ID = "G-XXXXXXXXXX" ; mkdocs gh-deploy
+#   CI :  env: GA_MEASUREMENT_ID: G-XXXXXXXXXX
+# Si la valeur est vide, AUCUN script Google Analytics n'est injecté (voir overrides/main.html).
+extra:
+  analytics:
+    provider: google
+    property: !ENV [GA_MEASUREMENT_ID, "G-KVQC4X6XB5"]

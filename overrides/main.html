@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{#-
+  Surcharge minimale du bloc analytics du thème Material.
+
+  Le thème official injecte gtag.js dès que `extra.analytics` est défini, même
+  si le Measurement ID est vide (requête inutile vers googletagmanager.com).
+  Ce template ajoute une seule condition : ne rien injecter si le Measurement ID
+  est absent. Le reste est identique au partial du thème, afin de conserver le
+  chargement async, le suivi des navigations et la prise en charge d'un éventuel
+  système de consentement déclaré via `extra.consent`.
+-#}
+{% block analytics %}
+  {% if config.extra.analytics %}
+    {% set provider = config.extra.analytics.provider %}
+    {% set property = config.extra.analytics.property | d("", true) %}
+    {% if provider and property %}
+      {% include "partials/integrations/analytics/" ~ provider ~ ".html" %}
+      {% if config.extra.consent %}
+        <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+      {% else %}
+        <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endblock %}

@@ -1,4 +1,4 @@
-Salut, j'espère que ça va. Je vais juste t'envoyer le lien de ce site et le mettre à jour de temps en temps si l'envie me prend de te dire quelque chose. C'est un site statique sans backend ni vraiment de configuration réseau et autre. J'avais juste besoin de te parler. En bas je vais raconter des inutilités donc si t'as pas envie de lire le point important est sur [cette page](real).
+Salut, j'espère que ça va. Je vais juste t'envoyer le lien de ce site et le mettre à jour de temps en temps si l'envie me prend de te dire quelque chose. C'est un site statique sans backend ni vraiment de configuration réseau et autre. J'avais juste besoin de te parler. En bas je vais raconter des inutilités donc si t'as pas envie de lire le point important est sur [cette page](real.md).
 
 # Pourquoi un site?
 
@@ -16,7 +16,7 @@ Je tenais aussi à te remercier. Tu as rendu cette année tellement belle et int
 
 
 
-En fait j'ai beaucoup plus de choses à dire mais ça ne me vient pas je pense que je le ferai à la prochaine mise à jour du site alors. Et aussi je vais ajouté [deux manières de crypter avec leurs codes python](cryptographie) juste parce que j'aime trop  faire ça et aussi ça ressemble à l'histoire d'amour entre Alice(A) et Bob(B) ces deux personnages qui essayent de s'envoyer des messages cryptés et qui sont espionner par Eve(Eavesdropper). Ce sont justes des personnages utilisés en cryptographie pour expliquer les concept en cryptographie au lieu de dire "personnage A", "personnage B", etc. Même si tout est bancal et mélangé ce sont les choses qui me viennent en tête. 
+En fait j'ai beaucoup plus de choses à dire mais ça ne me vient pas je pense que je le ferai à la prochaine mise à jour du site alors. Et aussi je vais ajouté [deux manières de crypter avec leurs codes python](cryptographie.md) juste parce que j'aime trop  faire ça et aussi ça ressemble à l'histoire d'amour entre Alice(A) et Bob(B) ces deux personnages qui essayent de s'envoyer des messages cryptés et qui sont espionner par Eve(Eavesdropper). Ce sont justes des personnages utilisés en cryptographie pour expliquer les concept en cryptographie au lieu de dire "personnage A", "personnage B", etc. Même si tout est bancal et mélangé ce sont les choses qui me viennent en tête. 
 
 Comme:
 
@@ -30,4 +30,4 @@ Et en plus je ne sais quel nom donner au site, donc je vais l'appeler "Idk" pour
 
 
 
-Bon sur [cette page](mises_à_jour) tu trouveras les dates de toutes les mises à jour si j'en fais.
+Bon sur [cette page](mises_à_jour.md) tu trouveras les dates de toutes les mises à jour si j'en fais.
