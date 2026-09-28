@@ -51,9 +51,10 @@ markdown_extensions:
       clickable_checkbox: true # Permet de cliquer sur les cases côté client (si supporté par le thème)
 # 4. STRUCTURE ET MENU DU SITE
 nav:
-  - Accueil: index.md
-  - Cryptographie: cryptographie.md
-  - Sujet réel: real.md
+  - Accueil: av_rentre.md # index.md
+  # - Cryptographie: cryptographie.md
+  # - Sujet réel: real.md
+  - Note à l'utilisatrice: note_user.md
   - Mises à jour: mises_à_jour.md
 
 # 5. ANALYTICS (Google Analytics 4)
