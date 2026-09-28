@@ -29,6 +29,12 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Passer au mode clair
+
+  exclude_docs:
+    - index.md
+    - cryptographie.md
+    - real.md
+  
   features:
     - navigation.tabs           # Menu sous forme d'onglets en haut
     - navigation.top            # Bouton fléché pour remonter en haut de page
